@@ -1,7 +1,7 @@
 # LanguageFinder (demo version)
 
 <p align="center">
-  <img width="400" src="../www/SpiceLogo1.png">
+  <img width="400" src="../SpiceLogo1.png">
 </p>
 
 
