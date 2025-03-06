@@ -111,7 +111,8 @@ server <- function(input, output, session) {
           na_color = "lightgrey"
         ),
         fill_opacity = 0.7,
-        tooltip = "percent_speakers"
+        tooltip = "percent_speakers",
+        popup = "geoname"
       ) |>
       add_continuous_legend(
         "Percent of Population Speaking Language",
