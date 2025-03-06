@@ -1,4 +1,4 @@
-# LanguageFinder
+# LanguageFinder (demo version)
 
 The purpose of this project is to build a LanguageFinder web application that will be free to access and easy to use. 
 
@@ -18,7 +18,7 @@ Translations and interpretation services are key tools to increase accessibility
 2) Organizations that serve particular language communities can use this information to identify key service areas.
 
 
-## How to use the files in this repository:
+## How to use the files in this repository to recreate our demo:
 1) Use `tract_level_app_processing.R` with `tract_level_19_23_data.feather` (in the data folder) to generate the rather large `county_data.gpkg` and `tract_data.gpkg` files.
 
 2) Use app.R to run the app. You will need to have the two `.gpkg` files from the previous step. 
