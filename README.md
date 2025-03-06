@@ -19,6 +19,6 @@ Translations and interpretation services are key tools to increase accessibility
 
 
 ## How to use the files in this repository:
-1) Use `tract_level_app_processing.R` with `tract_level_19_23_data.feather` (in the data folder) to generate the rather large `county_data.gpkg` and `tract_data.gpk files`.
+1) Use `tract_level_app_processing.R` with `tract_level_19_23_data.feather` (in the data folder) to generate the rather large `county_data.gpkg` and `tract_data.gpkg` files.
 
 2) Use app.R to run the app. You will need to have the two `.gpkg` files from the previous step. 
