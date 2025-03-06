@@ -1,10 +1,5 @@
 # LanguageFinder (demo version)
 
-<p align="center">
-  <img width="400" src="../SpiceLogo1.png">
-</p>
-
-
 Find out which languages other than English are spoken in particular places.
 Translations and interpretation services are key tools to increase accessibility to information. Access to information is especially important in relation to:
 
@@ -26,11 +21,7 @@ This project seeks to make data about languages spoken in the US accessible to d
 
 The data comes from the [US Census Bureau](https://www.census.gov/) [American Community Survey](https://www.census.gov/programs-surveys/acs), 5-year estimates from 2019-2023. This is the most reliable and most recent data available on languages spoken at home in the US. This data is collected using the following questions:
 
-<p align="center">
-  <img width="250" src="../www/language_600_q14.avif">
-</p>
-
-
+![Image](/www/language_600_q14.avif)
 
 The US Census Bureau reports 130 language categories, including 105 individual languages (e.g.: Spanish, Hawaiian) and 25 aggregated language categories (e.g. Other Malayo-Polynesian languages, Aleut languages. 
 
@@ -42,4 +33,12 @@ Where Ability to Speak English is given, this data is self-reported in part C of
 ## How to use the files in this repository to recreate our demo:
 1) Use `tract_level_app_processing.R` with `tract_level_19_23_data.feather` (in the data folder) to generate the rather large `county_data.gpkg` and `tract_data.gpkg` files.
 
-2) Use app.R to run the app. You will need to have the two `.gpkg` files from the previous step. 
+2) Use app.R to run the app. You will need to have the two `.gpkg` files from the previous step.
+
+## Project funding
+
+This project is funded under the National Science Foundation INCLUDES Alliance HRD-2217242
+“Alliance Supporting Pacific Impact through Computational Excellence”
+![Image](/www/SpiceLogo1.png)
+
+
